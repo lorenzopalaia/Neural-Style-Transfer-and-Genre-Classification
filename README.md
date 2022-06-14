@@ -9,7 +9,7 @@ Scaricare e decomprimere `inputs.zip`
 Utilizziamo il dataset GTZAN scaricabile [qui](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 ## Esecuzione
 L'intero progetto è strutturato per essere eseguito tramite Google Colab con i dataset caricati su Google Drive. In particolare è necessario scaricare i dataset e strutturare le cartelle di Google Drive come segue inserendo la cartella Colab Notebooks nella home di Google Drive:
-
+```
 Colab Notebooks/
 ├── data/
 │   ├── inputs
@@ -28,3 +28,4 @@ Colab Notebooks/
     ├── GC_imgaug_pt.ipynb
     ├── NST_pt.ipynb
     └── NST_tf.ipynb
+```
