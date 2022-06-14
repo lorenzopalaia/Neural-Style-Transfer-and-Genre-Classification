@@ -12,17 +12,17 @@ L'intero progetto è strutturato per essere eseguito tramite Google Colab con i 
 ```
 Colab Notebooks/
 ├── data/
-│   ├── inputs
+│   ├── inputs/
 │   │   └── inputs.zip (decompresso)
-│   ├── pt_outputs
-│   └── tf_outputs
+│   ├── pt_outputs/
+│   └── tf_outputs/
 ├── GTZAN Dataset/ (decompresso)
 ├── models/
-│   ├── pt
-│   │   ├── GC_csv
-│   │   └── GC_imgaug
-│   └── tf
-│       └── GC_csv
+│   ├── pt/
+│   │   ├── GC_csv/
+│   │   └── GC_imgaug/
+│   └── tf/
+│       └── GC_csv/
 └── notebooks/
     ├── GC_csv_pt_tf.ipynb
     ├── GC_imgaug_pt.ipynb
