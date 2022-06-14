@@ -29,4 +29,4 @@ Colab Notebooks/
     ├── NST_pt.ipynb
     └── NST_tf.ipynb
 ```
-Eseguire un notebook dalla cartella notebooks e utilizzare, quando possibile, il runtime GPU fornito da Colab.
+Eseguire un notebook dalla cartella notebooks e utilizzare, quando possibile, il runtime GPU fornito da Colab
