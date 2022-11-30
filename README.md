@@ -27,7 +27,7 @@
 
 Project was developed for "Laboratorio di Intelligenza Artificiale" class, Ingegneria Informatica e Automatica, Università La Sapienza
 
-Two different approaches were used for the classification, one based on Image Augumentation technique and another that uses the features of the audio tracks contained in a .csv file. For the first approach PyTorch was used while there is an implementation in PyTorch and one in Tensorflow for the classification through features. Similarly, there are implementations in both frameworks for neural style transfer
+Two different approaches were used for the classification, one based on Image Augumentation technique and another that uses the features of the audio tracks stored in a .csv file. For the first approach PyTorch was used while there is an implementation in PyTorch and one in Tensorflow for the classification through features. Similarly, there are implementations in both frameworks for neural style transfer
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
