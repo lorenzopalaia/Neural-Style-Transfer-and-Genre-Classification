@@ -92,35 +92,47 @@ Two different approaches were used for the classification, one based on Image Au
 
 #### Neural Style Transfer
 
-Download and unzip `inputs.zip`
+Already provided
 
 #### Genre Classification
 
-Download GTZAN dataset [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
+Download GTZAN dataset [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification), unzip it and replace the GTZAN Dataset (Reduced) folder
 
 ### Installation
+
+[!] WIP: migrate installation from Colab to local environment
 
 The whole project is structured to be run through Google Colab with the datasets uploaded to Google Drive. In particular, it is necessary to download the datasets and structure the Google Drive folders as follows by inserting the `Colab Notebooks` folder in the Google Drive home:
 
 ```
-Colab Notebooks/
-├── data/
-│   ├── inputs/
-│   │   └── inputs.zip (unzipped)
-│   ├── pt_outputs/
-│   └── tf_outputs/
-├── GTZAN Dataset/ (unzipped)
-├── models/
-│   ├── pt/
-│   │   ├── GC_csv/
-│   │   └── GC_imgaug/
-│   └── tf/
-│       └── GC_csv/
-└── notebooks/
-    ├── GC_csv_pt_tf.ipynb
-    ├── GC_imgaug_pt.ipynb
-    ├── NST_pt.ipynb
-    └── NST_tf.ipynb
+.
+├── data
+│   ├── input
+│   │   ├── NST
+│   │   └── GC
+│   │       └── GTZAN Dataset (Reduced)
+│   └── output
+│       └── NST
+│           ├── PyTorch
+│           └── Tensorflow
+├── test
+├── models
+│   ├── PyTorch
+│   │   ├── GC_csv
+│   │   ├── GC_audioaug
+│   │   └── GC_imgaug
+│   └── Tensorflow
+│       └── GC_csv
+├── models
+│   ├── csv
+│   │   └── GC_pytorch_tensorflow_csv.ipynb
+│   └── Data Augmentation
+│       ├── GC_pytorch_img.ipynb
+│       └── GC_pytorch_audio.ipynb
+└── NST
+    ├── NST_plots.ipynb
+    ├── NST_pytorch.ipynb
+    └── NST_tensorflow.ipynb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,7 +142,7 @@ Colab Notebooks/
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Run a notebook from the `notebooks` folder and use the GPU runtime provided by Colab whenever possible
+Run a notebook from `NST` or `GC` folder using the GPU runtime provided by Colab whenever possible
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
